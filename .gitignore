@@ -1,0 +1,5 @@
+bin
+obj
+/LetsAlgoTogether.code-workspace
+*.class
+*.csproj
