@@ -48,9 +48,13 @@ class QuickStart {
           for (List<Integer> sumList : temp) {
             sumList.add(0, nums[i]);
           }
-
           kList.addAll(temp);
         }
+        
+        //Ignore duplicates
+        //Remember array is sorted
+        while (i < nums.length - k + 1 && nums[i] == nums[i + 1]) {
+          i++;
       }
 
       return kList;
